@@ -1,0 +1,6 @@
+/node_modules
+/src/*.js
+/test/*.js
+*.js.map
+.tsbuildinfo
+!/dist/index.js

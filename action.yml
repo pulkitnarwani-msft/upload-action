@@ -1,0 +1,12 @@
+name: 'upload-artifact'
+description: 'upload to blob'
+inputs:
+  connection_string:  
+    description: 'connection string for storage account'
+    required: true    
+  artifact_path:
+    description: 'artifact needed to be uploade'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'
